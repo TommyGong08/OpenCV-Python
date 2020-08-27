@@ -2,7 +2,7 @@
 """
 Created on Thu Aug 27 13:57:46 2020
 
-@author: TOMMY
+@author: GONG HAILONG
 """
 
 
@@ -20,7 +20,7 @@ def logic_demo(m1,m2):
     cv.imwrite("C:/Users/TOMMY/Desktop/2.JPG",dst3)
 
 #adjust contrast&brightness
-def constrast_brightness_demo(image,c,b):
+def contrast_brightness_demo(image,c,b):
     h, w ,ch = image.shape
     blank = np.zeros([h,w,ch],image.dtype)
     dst = cv.addWeighted(image,c, blank,1-c,b)

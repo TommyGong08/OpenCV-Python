@@ -2,7 +2,7 @@
 """
 Created on Wed Aug 26 21:51:13 2020
 
-@author: TOMMY
+@author: GONG HAILONG
 """
 
 import cv2 as cv
